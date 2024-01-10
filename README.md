@@ -16,7 +16,7 @@ This project aims to provide scripts for downloading various datasets.
 
 ## ⏬ Models/Datasets from 🤗 Hugging Face<a id="huggingface"> </a>
 
-- script: `scripts/huggingface.sh` <a href="./scripts.huggingface.sh">Click Here</a>.
+- script: `scripts/huggingface.sh` <a href="./scripts/huggingface.sh">Click Here</a>.
 
 - **Set your configs**.
 
