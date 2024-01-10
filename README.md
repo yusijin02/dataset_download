@@ -6,9 +6,11 @@ This project aims to provide scripts for downloading various datasets.
 
 ## 🌟 Quick Start
 
-✅ <a href="#huggingface">Download from Hugging Face</a> (models or dataset)
+✅ <a href="#huggingface">Download from Hugging Face</a> (models or dataset) 🤗
 
 ✅ <a href="#Kinetics400">Download Kinetics 400 Dataset</a> (~424GB)
+
+✅ <a href="#brain_decoding">Download Visual Brain Decoding Datasets</a> 🧠
 
 
 
@@ -46,7 +48,47 @@ This project aims to provide scripts for downloading various datasets.
 
   
 
+## ⏬ Visual 🧠 Brian Decoding Datasets<a id="brain_decoding"> </a>
 
+- **DIR (Deep Image Reconstruction, 2019)** (~97GB)
+
+  3 subjects Image-fMRI datasets.
+
+  script: `scripts/dir.sh` <a href="./scripts/dir.sh">Click Here</a>.
+
+  ```bash
+  bash scripts/dir.sh
+  ```
+
+- **GOD (Generic Object Decoding, 2017)** (~38GB)
+
+  5 subjects Image-fMRI datasets.
+
+  script: `scripts/god.sh` <a href="./scripts/god.sh">Click Here</a>.
+
+  ```bash
+  bash scripts/god.sh
+  ```
+
+- **BOLD 5000 v2.0 (Brain, Object, Landscape Dataset, 2019)** (~123GB)
+
+  4 subjects Image-fMRI datasets.
+
+  script: `scripts/bold5000.sh` <a href="./scripts/bold5000.sh">Click Here</a>.
+
+  ```bash
+  bash scripts/bold5000.sh
+  ```
+
+- **Berezutskaya *et al.* 2022 (iEEG-fMRI Dataset, 2022)** (~16GB)
+
+  63 subjects Sounds-Video-fMRI-iEEG datasets.
+
+  script: `scripts/berezutskaya2022.sh` <a href="./scripts/berezutskaya2022.sh">Click Here</a>.
+
+  ```bash
+  bash scripts/berezutskaya2022.sh
+  ```
 
 
 
