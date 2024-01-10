@@ -14,6 +14,12 @@ This project aims to provide scripts for downloading various datasets.
 
 
 
+## 💥 News!
+
+🚩 [2024.01.10] Initial. Now support Hugging Face and 6 datasets: K400 and 5 visual brain decoding dataset (DIR, GOD, BOLD5000, iEEG-fMRI, Video-fMRI).
+
+
+
 ## ⏬ Models/Datasets from 🤗 Hugging Face<a id="huggingface"> </a>
 
 - script: `scripts/huggingface.sh` <a href="./scripts/huggingface.sh">Click Here</a>.
@@ -52,7 +58,7 @@ This project aims to provide scripts for downloading various datasets.
 
 - **DIR (Deep Image Reconstruction, 2019)** (~97GB)
 
-  3 subjects Image-fMRI datasets.
+  3 subjects <font color=Coral>Image</font>-<font color=DarkViolet>fMRI</font> datasets.
 
   script: `scripts/dir.sh` <a href="./scripts/dir.sh">Click Here</a>.
 
@@ -62,7 +68,7 @@ This project aims to provide scripts for downloading various datasets.
 
 - **GOD (Generic Object Decoding, 2017)** (~38GB)
 
-  5 subjects Image-fMRI datasets.
+  5 subjects <font color=Coral>Image</font>-<font color=DarkViolet>fMRI</font> dataset.
 
   script: `scripts/god.sh` <a href="./scripts/god.sh">Click Here</a>.
 
@@ -72,7 +78,7 @@ This project aims to provide scripts for downloading various datasets.
 
 - **BOLD 5000 v2.0 (Brain, Object, Landscape Dataset, 2019)** (~123GB)
 
-  4 subjects Image-fMRI datasets.
+  4 subjects <font color=Coral>Image</font>-<font color=DarkViolet>fMRI</font> dataset.
 
   script: `scripts/bold5000.sh` <a href="./scripts/bold5000.sh">Click Here</a>.
 
@@ -82,7 +88,7 @@ This project aims to provide scripts for downloading various datasets.
 
 - **Berezutskaya *et al.* 2022 (iEEG-fMRI Dataset, 2022)** (~16GB)
 
-  63 subjects Sounds-Video-fMRI-iEEG datasets.
+  63 subjects <font color=VioletRed>Sounds</font>-<font color=SeaGreen>Video</font>-<font color=DarkViolet>fMRI</font>-<font color=DarkSlateBlue>iEEG</font> dataset.
 
   script: `scripts/berezutskaya2022.sh` <a href="./scripts/berezutskaya2022.sh">Click Here</a>.
 
@@ -90,11 +96,17 @@ This project aims to provide scripts for downloading various datasets.
   bash scripts/berezutskaya2022.sh
   ```
 
+- **Wen *et al.* 2017 (Video-fMRI Dataset, 2017)** (~48GB)
 
+  3 subjects <font color=SeaGreen>Video</font>-<font color=DarkViolet>fMRI</font> dataset.
 
+  script: `scripts/wen2017.sh` <a href="./scripts/wen2017.sh">Click Here</a>.
 
+  ```bash
+  bash scripts/wen2017.sh
+  ```
 
-
+  
 
 
 
