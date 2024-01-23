@@ -16,6 +16,8 @@ This project aims to provide scripts for downloading various datasets.
 
 ## 💥 News!
 
+🚩 [2024.01.23] New dataset supported! NSD (Natural Scenes Dataset, 2021)!
+
 🚩 [2024.01.10] Initial. Now support Hugging Face and 6 datasets: K400 and 5 visual brain decoding dataset (DIR, GOD, BOLD5000, iEEG-fMRI, Video-fMRI).
 
 
@@ -55,6 +57,24 @@ This project aims to provide scripts for downloading various datasets.
   
 
 ## ⏬ Visual 🧠 Brian Decoding Datasets<a id="brain_decoding"> </a>
+
+- **NSD (Natural Scenes Dataset, 2021)**
+
+  8 subjects <font color=Coral>Image</font>-<font color=DarkViolet>fMRI</font> datasets.
+
+  script: `scripts/nsd.sh` <a href="./scripts/nsd.sh">Click Here</a>.
+
+  ```bash
+  bash scripts/nsd.sh 
+  ```
+
+  You can add arguments afterwards to decide what data you want to download. 
+
+  For example, if you want to download the rawdata for all subjects and the timeseries for subject 04, you may run:
+
+  ```bash
+  bash scripts/nsd.sh /nsddata_rawdata /nsddata_timeseries/ppdata/subj04
+  ```
 
 - **DIR (Deep Image Reconstruction, 2019)** (~97GB)
 
@@ -107,6 +127,8 @@ This project aims to provide scripts for downloading various datasets.
   ```
 
   
+
+
 
 
 
